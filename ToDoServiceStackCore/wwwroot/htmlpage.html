@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>ToDo</title>
+        <link rel="stylesheet" type="text/css" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="text-center">ToDo</h1>
+            <p>
+                <button id='addUser' class='btn btn-primary'>Add</button>
+            </p>
+            <p>
+                <table id='users' class='table table-hover'>
+                    <th>
+                        First Name
+                    </th>
+                    <th>
+                        Last Name
+                    </th>
+                    <th>
+                        Tasks
+                    </th>
+                </table>
+            </p>
+        </div>
+        <div class="modal fade" id="addUserModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h4 class="modal-title">Add new user</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form class="form-horizontal">
+                            <div class="form-group">
+                                <label class="control-label col-sm-4" for="firstName">First name:</label>
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control" id="firstName" placeholder="Enter your first name">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-sm-4" for="lastName">Last name:</label>
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control" id="lastName" placeholder="Enter you last name">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-primary" id="addUserButtonOK">Ok</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="node_modules\jquery\dist\jquery.min.js"></script>
+    <script src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</html>

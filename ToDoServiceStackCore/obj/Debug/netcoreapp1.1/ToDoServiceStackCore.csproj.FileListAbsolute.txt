@@ -1,0 +1,9 @@
+F:\Projects\ToDoServiceStackCore\ToDoServiceStackCore\bin\Debug\netcoreapp1.1\ToDoServiceStackCore.deps.json
+F:\Projects\ToDoServiceStackCore\ToDoServiceStackCore\bin\Debug\netcoreapp1.1\ToDoServiceStackCore.runtimeconfig.json
+F:\Projects\ToDoServiceStackCore\ToDoServiceStackCore\bin\Debug\netcoreapp1.1\ToDoServiceStackCore.runtimeconfig.dev.json
+F:\Projects\ToDoServiceStackCore\ToDoServiceStackCore\bin\Debug\netcoreapp1.1\ToDoServiceStackCore.dll
+F:\Projects\ToDoServiceStackCore\ToDoServiceStackCore\obj\Debug\netcoreapp1.1\ToDoServiceStackCore.AssemblyInfo.cs
+F:\Projects\ToDoServiceStackCore\ToDoServiceStackCore\bin\Debug\netcoreapp1.1\ToDoServiceStackCore.pdb
+F:\Projects\ToDoServiceStackCore\ToDoServiceStackCore\obj\Debug\netcoreapp1.1\ToDoServiceStackCore.dll
+F:\Projects\ToDoServiceStackCore\ToDoServiceStackCore\obj\Debug\netcoreapp1.1\ToDoServiceStackCore.pdb
+F:\Projects\ToDoServiceStackCore\ToDoServiceStackCore\obj\Debug\netcoreapp1.1\ToDoServiceStackCore.csprojResolveAssemblyReference.cache
